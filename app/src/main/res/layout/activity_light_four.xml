@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/light"
+        android:textColor="@color/orange"
+        android:text="Scattering of Light"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="Have you ever wondered why the sun appears orange red during sunrise and sunset while it appears white at noon?"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="It is due to scattering of light. Scattering of light occurs when light strikes a rough surface and reflects back in various directions."/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Let's experiment"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/experiment"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="1.Fill a glass pitcher with water. Add milk a little bit at a time, just until the water is murky and translucent."/>
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pt1"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="2.Place the flashlight so that the beam shines through the glass.Look at the beam of light from the end of the pitcher."/>
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pt2"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="The ight has a red-orange hue!"/>
+
+    <TextView
+        android:id="@+id/pt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pt3"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/skyblue"
+        android:text="As you shine the flashlight, the light collides with and bounces off of the many molecules from the milk(like dust particles in air).These molecules scatter the light, and the light waves with the shortest wavelengths are scattered the most."/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button8"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/pt4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/elec"
+        android:textColor="@color/orange"
+        android:text="Resistance of a wire"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/elec"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="The resistance of a wire depends on the length of a wire."/>
+
+    <TextView
+        android:id="@+id/length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Pass a current through a short wire and a long wire (probably double its length). Measure its magnitude with an ammeter."/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/length"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="The magnitude of the current in shorter wire will be twice as that of the longer wire."/>
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pt1"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="The resistance of a wire is inversely proportional to its area of cross section."/>
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt2"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Pass a current through a thin wire and a thick wire. Measure its magnitude with an ammeter."/>
+
+    <TextView
+        android:id="@+id/pt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt3"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="The magnitude of the current in thicker wire will be more than that of the thin wire."/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button5"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/pt4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+
+
+
+
+

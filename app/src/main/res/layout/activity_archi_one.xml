@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/newton"
+        android:textColor="@color/orange"
+        android:text="Densities"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newton"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="1. If the density of a substance is less than the density of the liquid, the substance floats on the liquid.
+
+2.If the density of a substance is equal to the density of the liquid, the substance is just above the liquid.
+
+3.the density of a substance is more than the density of the liquid, the substance sinks in the liquid."/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:id="@+id/density"
+        android:src="@drawable/density"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/density"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="Same is the case with liquids."/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:id="@+id/density1"
+        android:src="@drawable/density1"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button2"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/density1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+

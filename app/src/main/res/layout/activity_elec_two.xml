@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/elec"
+        android:textColor="@color/orange"
+        android:text="Electricity terms"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/elec"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="*Potential difference depends on the current passing through the wire and its resistance (Ohm's law).
+
+*The voltmeter is connected in parallel with the circuit element and the ammeter in series.
+
+*Resistivity depends on temperature and nature of the medium."/>
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="240dp"
+        android:id="@+id/diff"
+        android:src="@drawable/diff"
+        android:foregroundGravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button6"
+        android:text="Done"
+        android:background="@drawable/next"
+        android:layout_below="@+id/diff"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>

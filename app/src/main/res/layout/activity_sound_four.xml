@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/sounduses"
+        android:textColor="@color/orange"
+        android:text="Uses of sound"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/echo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sounduses"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="*Echo"
+        android:textColor="@color/red"/>
+
+    <TextView
+        android:id="@+id/echotext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/echo"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="It is a repetition of sound produced by the reflection of sound waves from a wall, mountain, or other obstructing surface. This can be experimented by standing in front of a big wall at a long distance and clapping. This phenomena occurs due to reflection of sound. Bats use this phenomena to locate prey."/>
+
+    <ImageView
+        android:id="@+id/echoimg"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/echotext"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/echo"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_toRightOf="@+id/echoimg"
+        android:layout_below="@+id/echotext"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/ecolocation"/>
+
+    <TextView
+    android:id="@+id/sonar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/echoimg"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:textColor="@color/red"
+    android:text="*Sonar"/>
+
+    <TextView
+        android:id="@+id/sonartext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sonar"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="A system for the detection of objects under water by emitting sound pulses and detecting or measuring their return after being reflected."/>
+
+
+    <ImageView
+        android:id="@+id/sonarimg"
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/sonartext"
+        android:layout_marginTop="15dp"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sonar"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button18"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/sonarimg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+

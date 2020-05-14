@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/sound"
+        android:textColor="@color/orange"
+        android:text="Reflection of sound"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/reflection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sound"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Sound is reflected back on striking a surface. The angle of incidence is equal to the angle of reflection."
+        android:textColor="@color/magenta"/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reflection"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/red"
+        android:text="Let's Experiment"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/experiment"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="1. Arrange two hollow tubes, a protractor, a clock and reflecting surface as shown."/>
+
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="2. Let the angle of incidence be 30°. Then switch on the alarm clock. Change the angle of reflection multiple times and keep your ear closer to the reflecting tube."/>
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt2"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/green"
+        android:text="You notice that the sound is best audible when angle of reflection is same - 30°."/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ref"
+        android:layout_below="@+id/pt1"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ref1"
+        android:layout_below="@+id/pt3"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ref1"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ref2"
+        android:layout_below="@+id/ref1"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ref2"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ref3"
+        android:layout_below="@+id/ref2"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ref3"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button20"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/ref3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+

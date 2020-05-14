@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Cyborg</string>
+    <string name="title_activity_layout">layout</string>
+    <string name="title_activity_sound">Sound</string>
+    <string name="title_activity_sound1">sound1</string>
+    <string name="title_activity_sound_one">sound_one</string>
+    <string name="title_activity_sound_two">sound_two</string>
+    <string name="title_activity_sound_three">sound_three</string>
+    <string name="title_activity_sound_four">sound_four</string>
+    <string name="title_activity_sound_five">sound_five</string>
+    <string name="title_activity_light_one">light_one</string>
+    <string name="title_activity_light_two">light_two</string>
+    <string name="title_activity_light_three">light_three</string>
+    <string name="title_activity_light_four">light_four</string>
+    <string name="title_activity_light_five">light_five</string>
+    <string name="title_activity_newton_one">newton_one</string>
+    <string name="title_activity_newton_two">newton_two</string>
+    <string name="title_activity_newton_three">newton_three</string>
+    <string name="title_activity_newton_four">newton_four</string>
+    <string name="title_activity_newton_five">newton_five</string>
+    <string name="title_activity_elec_one">elec_one</string>
+    <string name="title_activity_elec_two">elec_two</string>
+    <string name="title_activity_magnet_one">magnet_one</string>
+    <string name="title_activity_archi_one">archi_one</string>
+    <string name="title_activity_archi_two">archi_two</string>
+    <string name="title_activity_archi_three">archi_three</string>
+    <string name="title_activity_archi_four">archi_four</string>
+</resources>

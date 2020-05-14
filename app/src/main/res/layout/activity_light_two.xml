@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/light"
+        android:textColor="@color/orange"
+        android:text="Reflection of Light"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="Light reflects on striking a polished surface and the angle of incidence is equal to the angle of reflection."/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Let's Experiment"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/experiment"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="1.Place a protactor, laser light and mirror on a sheet as shown."/>
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:textSize="20dp"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/black"
+        android:text="2. Let the light be incident on the mirror at a certain angle. Draw a normal perpendicular to the plane of the mirror. "/>
+
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/light"
+        android:layout_below="@id/pt1"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="140dp"
+        android:id="@+id/lightref"
+        android:src="@drawable/refl"
+        android:layout_below="@id/pt3"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt2"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="3.Trace the incident ray and the reflected ray."/>
+
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/pic1"
+        android:layout_marginTop="0dp"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/slide_6"/>
+
+    <TextView
+        android:id="@+id/pt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic2"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="Fun fact : Have you seen Mr. Bean providing light to his watermelon plant using multiple mirrors and a single light? Well you're right, he's using the concept of reflection of light."/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button11"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/pt4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    <ImageView
+        android:id="@+id/pic1"
+    android:layout_width="250dp"
+    android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+    android:foregroundGravity="center"
+        android:src="@drawable/lightref"
+        android:layout_below="@+id/lightref"
+        android:layout_alignStart="@+id/pic2" />
+
+
+
+
+</RelativeLayout>
+    </ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/newton"
+        android:textColor="@color/orange"
+        android:text="Buoyancy"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newton"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="Buoyancy  is an upward force exerted by a fluid that opposes the weight of an immersed object."/>
+
+    <TextView
+        android:id="@+id/archimedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:text="Archimedes' principle : Archimedes' principle indicates that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially submerged, is equal to the weight of the fluid that the body displaces and it acts in the upward direction at the centre of mass of the displaced fluid."/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/archimedes"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Let's Experiment"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/experiment"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="1.Attach a weight to a spring balance and note down the reading.
+
+2.Immerse the weight in a beaker filled with water. Collect the overflowing water in another container through a hole in the beaker."/>
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt1"
+        android:layout_marginTop="15dp"
+        android:textSize="19dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="Loss in weight of the body = Weight of water displaced by the body = Buoyant Force or up-thrust exerted by water on the body.
+Volume of the water displaced = Volume of the body immersed in water."/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:id="@+id/archi"
+        android:src="@drawable/archi"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pt2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button4"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/archi"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+

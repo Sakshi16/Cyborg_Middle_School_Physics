@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/light"
+        android:textColor="@color/orange"
+        android:text="Total Internal Reflection"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light"
+        android:layout_marginTop="15dp"
+        android:textSize="17dp"
+        android:textColor="@color/magenta"
+        android:text="Total internal reflection is a phenomenon that occurs when light travels from a more optically dense medium to a lesser one and the angle of incidence is greater than the critical angle, the entire light gets felected back in the same surface."/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Let's experiment"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/experiment"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="1.Take a soda pop bottle with a hole at the bottom."/>
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pt1"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="2.Fill it with water and point a laser through it."/>
+
+    <ImageView
+        android:layout_width="2005dp"
+        android:layout_height="190dp"
+        android:id="@+id/tir"
+        android:src="@drawable/tir"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/pt2"/>
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tir"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/green"
+        android:text="As the stream of water begins to fall as a projectile along a parabolic path to the ground, the laser light becomes trapped within the water due to total internal reflection."/>
+
+    <ImageView
+        android:layout_width="2005dp"
+        android:layout_height="190dp"
+        android:id="@+id/tir1"
+        android:src="@drawable/tir1"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/pt3"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button7"
+        android:text="Done"
+        android:background="@drawable/next"
+        android:layout_below="@+id/tir1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>

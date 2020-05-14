@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/speed"
+        android:textColor="@color/orange"
+        android:text="Speed of sound"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speed"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Let's Experiment"
+        android:textColor="@color/red"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/experiment"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="1. Stand on a cliff with your friend on the other."
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt1"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="2.One person fires a gun into the air. The timekeeper starts a stopwatch when he sees a flash from the gun and stops the stopwatch when he hears the sound."/>
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt2"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="3. Calculate the speed of sound using the formula v=Dt."/>
+
+    <ImageView
+        android:id="@+id/speeding"
+        android:layout_width="3000dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/pt3"
+        android:layout_marginTop="15dp"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/speed"/>
+
+    <TextView
+        android:id="@+id/ssound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speeding"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        android:text="The speed of sound is 340 m/s."/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button18"
+        android:text="Done"
+        android:background="@drawable/next"
+        android:layout_below="@+id/ssound"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>

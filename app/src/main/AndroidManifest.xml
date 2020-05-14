@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.applications.sakshirambhia.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/physics_atom_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".layout"
+            android:label="@string/title_activity_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".sound" />
+        <activity
+            android:name=".sound_one"
+            android:label="@string/title_activity_sound_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sound_two"
+            android:label="@string/title_activity_sound_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sound_three"
+            android:label="@string/title_activity_sound_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sound_four"
+            android:label="@string/title_activity_sound_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sound_five"
+            android:label="@string/title_activity_sound_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".light_one"
+            android:label="@string/title_activity_light_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".light_two"
+            android:label="@string/title_activity_light_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".light_three"
+            android:label="@string/title_activity_light_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".light_four"
+            android:label="@string/title_activity_light_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".light_five"
+            android:label="@string/title_activity_light_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".newton_one"
+            android:label="@string/title_activity_newton_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".newton_two"
+            android:label="@string/title_activity_newton_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".newton_three"
+            android:label="@string/title_activity_newton_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".newton_four"
+            android:label="@string/title_activity_newton_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".newton_five"
+            android:label="@string/title_activity_newton_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".elec_one"
+            android:label="@string/title_activity_elec_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".elec_two"
+            android:label="@string/title_activity_elec_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".archi_one"
+            android:label="@string/title_activity_archi_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".archi_two"
+            android:label="@string/title_activity_archi_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".archi_three"
+            android:label="@string/title_activity_archi_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".archi_four"
+            android:label="@string/title_activity_archi_four"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

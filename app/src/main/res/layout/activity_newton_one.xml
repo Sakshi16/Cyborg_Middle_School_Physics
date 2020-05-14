@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/newton"
+        android:textColor="@color/orange"
+        android:text="First law of motion"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newton"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="A body at rest remains at rest and a body in motion remains in a state of motion unless an external unbalanced force acts on it."/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Let's Experiment"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/experiment"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="1.Put a playing card on top of the plastic cup. Put a coin on top of the card."/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:id="@+id/coin"
+        android:src="@drawable/coin"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pt1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/pt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt3"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="The coin will drop into the cup."/>
+
+    <TextView
+        android:id="@+id/pt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt4"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/skyblue"
+        android:text="The card moves due to the force applied by your hand, whereas the coin remains at rest and is pulled down by gravity."/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button14"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/pt5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="2.With a sharp flick, hit the card out from under the coin or pull it really quickly toward you."
+        android:layout_below="@+id/coin"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+    </ScrollView>
+
+
+
+

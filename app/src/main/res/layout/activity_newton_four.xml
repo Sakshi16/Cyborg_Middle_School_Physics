@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout
+    android:id="@+id/activity_sound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.applications.sakshirambhia.myapplication.sound">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/newton"
+        android:textColor="@color/orange"
+        android:text="Centripetal force"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newton"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/magenta"
+        android:text="It is a force that tends to pull an object towards the centre in a uniform circular motion."/>
+
+    <TextView
+        android:id="@+id/experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Let's Experiment"/>
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/experiment"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Tie a string to a stone and rotate it. Assume a mischievous friend come and cuts the string.
+        What do you observe?" />
+
+    <TextView
+        android:id="@+id/pt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt1"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:text="The ball moves in direction of motion of the ball which is at tangent at that particular instant."/>
+
+    <TextView
+        android:id="@+id/pt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt2"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red"
+        android:text="According to Newton's firstlaw, a body continues to move in the same
+diection with same velocity
+unless an external unbalanced
+force is applied to it.
+But did you see anyone applying force to it?"/>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@drawable/think"
+        android:id="@+id/think"
+        android:layout_marginTop="21dp"
+        android:layout_alignTop="@+id/pt3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="253dp" />
+
+    <TextView
+        android:id="@+id/pt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt3"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/skyblue"
+        android:text="It is the centripetal force that causes the motion towards the centre."/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:id="@+id/centripetal"
+        android:src="@drawable/centripetal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/pt4" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:id="@+id/earth"
+        android:src="@drawable/earth"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/centripetal"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/pt4" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button13"
+        android:text="Next"
+        android:background="@drawable/next"
+        android:layout_below="@+id/earth"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
